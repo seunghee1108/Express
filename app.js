@@ -1,5 +1,4 @@
-// app.js 또는 server.js 파일
-
+// app.js 또는 server.js 파일주서
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
@@ -28,3 +27,4 @@ app.post('/login', (req, res) => {
 app.listen(port, () => {
   console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
 });
+
